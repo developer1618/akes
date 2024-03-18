@@ -6,3 +6,13 @@
   background-color: red;
   color: white;
 }
+#submit:disabled {
+  background-color: rgb(156 163 175);
+  cursor: not-allowed;
+  color: #fff;
+}
+
+#submit:disabled:hover {
+  background-color: rgb(156 163 175);
+  color: #fff;
+}
