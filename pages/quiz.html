@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="../src/flowbite.css">
+  <script src="../src/flowbite.js" defer></script>
+  <link rel="icon" type="image/png" href="../img/logo.png" />
+  <title>Start Page</title>
+  <link rel="stylesheet" href="/src/style.css">
+  <script src="/src/script.js" defer></script>
+</head>
+
+<body>
+  <header class="flex justify-center">
+    <div class="container bg-white flex justify-between py-3 items-center align-middle mx-4">
+      <a href="start.html" class="flex justify-center items-center">
+        <img src="../img/logo.png" alt="Logo" class="pr-4 w-20">
+      </a>
+      <a href="textbooks.html"
+        class="transition duration-700 border-solid border-2 border-[#E9EEFF] bg-[#3E3E70] text-white hover:text-white hover:bg-[#3E3E70] hover:border-[#3E3E70] rounded-lg p-4 w-96">
+        <h2 class="text-2xl font-medium pb-2">Textbooks</h2>
+        <p class="text-sm font-normal">Click here to view Textbook Resources</p>
+      </a>
+      <a href="teachingpractices.html"
+        class="transition duration-700 border-solid border-2 border-[#E9EEFF] hover:text-white hover:bg-[#3E3E70] hover:border-[#3E3E70] text-[#3E3E70] rounded-lg p-4 w-96">
+        <h2 class="text-2xl font-medium pb-2">Teaching Practices</h2>
+        <p class="text-sm font-normal">Click here to view Teaching Practices Resources</p>
+      </a>
+      <a href="coregrammar.html"
+        class="transition duration-700 border-solid border-2 border-[#E9EEFF] hover:text-white hover:bg-[#3E3E70] hover:border-[#3E3E70] text-[#3E3E70] rounded-lg p-4 w-96">
+        <h2 class="text-2xl font-medium pb-2">Core Grammar</h2>
+        <p class="text-sm font-normal">Click here to view Core Grammar Resources</p>
+      </a>
+      <!-- <div>
+        <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown"
+          class="text-[#333] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
+          type="button">English<svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+            fill="none" viewBox="0 0 10 6">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="m1 1 4 4 4-4" />
+          </svg>
+        </button>
+        <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
+          <ul class="py-2 text-sm text-gray-700" aria-labelledby="dropdownDefaultButton">
+            <li class="hover:bg-indigo-900 hover:text-white">
+              <a href="#" class="block px-4 py-2">English</a>
+            </li>
+            <li class="hover:bg-indigo-900 hover:text-white">
+              <a href="#" class="block px-4 py-2">Тоҷикӣ</a>
+            </li>
+            <li class="hover:bg-indigo-900 hover:text-white">
+              <a href="#" class="block px-4 py-2">Русский</a>
+            </li>
+          </ul>
+        </div>
+      </div> -->
+    </div>
+  </header>
+  <main class="bg-[#F6F8FF] pt-10" style="min-height: calc(100vh - 176px);" style="min-height: calc(100vh - 176px);">
+    <div class="first-quiz">
+      <div class="flex justify-center" id="quiz-timelines">
+        <div
+          class="container quiz-timeline border-2 py-2 px-4 rounded-full max-w-xl flex justify-between items-center align-middle bg-white mb-4">
+          <span id="questionCounter" class="quiz-timeline__counter">1</span>
+        </div>
+      </div>
+      <div class="grid justify-center quiz-container" id="quiz">
+        <div class="quiz-header quiz-question__block border-2 p-4 rounded-lg bg-white mb-8">
+          <h2 id="question" class="pb-4">Question title</h2>
+          <ul>
+            <li class="pb-2">
+              <input type="radio" name="answer" id="a" class="answer" />
+              <label for="a" id="a_text">Question text 1</label>
+            </li>
+
+            <li class="pb-2">
+              <input type="radio" name="answer" id="b" class="answer" />
+              <label for="b" id="b_text">Question text 2</label>
+            </li>
+
+            <li class="pb-2">
+              <input type="radio" name="answer" id="c" class="answer" />
+              <label for="c" id="c_text">Question text 3</label>
+            </li>
+            <li class="pb-2">
+              <input type="radio" name="answer" id="d" class="answer" />
+              <label for="d" id="d_text">Question text 4</label>
+            </li>
+          </ul>
+        </div>
+        <div class="flex justify-center">
+          <button id="submit"
+            class="flex justify-center bg-white border-2 transition duration-700 text-[#3E3E70] hover:bg-[#3E3E70] hover:text-white px-4 py-2 rounded-md mb-8">Next
+            question</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="flex justify-center py-4">
+      <p class="text-[#7191BD]">© 2024 All rights reserved <a href="creditpage.html"
+          class="underline hover:no-underline text-[#457CC9] px-4">About Programme</a></p>
+    </div>
+  </footer>
+</body>
+
+</html>
