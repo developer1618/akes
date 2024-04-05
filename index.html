@@ -8,18 +8,34 @@
   <title>Main Page</title>
 </head>
 <body>
-  <main class="h-screen flex items-center justify-center">
+  <main class="h-screen flex items-center justify-center" style="background-image: url('img/main-bg.png'); background-repeat: no-repeat; display: flex; justify-content: center; background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;">
     <div class="max-w-md">
-      <div class="mb-72">
-        <img src="img/start-page.gif" alt="GIF" style="max-width: 56rem;">
+      <div class="flex justify-center items-center pb-8">
+        <div class="px-4">
+          <img src="../img/main-logo.png" alt="AKF">
+        </div>
+      </div>
+      <div class="flex justify-center text-4xl font-semibold" style="padding-bottom: 7rem;">
+        <h2>English Language Teaching (ELT) Training Programme</h2>
       </div>
       <div class="flex justify-center max-w-md mb-8" style="margin-bottom: 16px;">
-        <a href="pages/start.html" class="transition duration-700 text-2xl font-semibold flex justify-center px-48 py-5 rounded-lg border-solid border-2 border-[#3E3E70] hover:bg-[#3E3E70] hover:text-white" style="max-width: 28rem;">START</a>
-      </div>
-      <div class="flex justify-center max-w-md mt-8">
-        <a href="pages/quiz.html" class="transition duration-700 text-2xl font-semibold flex justify-center px-48 py-5 rounded-lg border-solid border-2 border-[#3E3E70] hover:bg-[#3E3E70] hover:text-white" style="max-width: 28rem;">QUIZ</a>
+        <a href="pages/start.html" class="main-btn transition duration-700 text-2xl text-white font-semibold flex justify-center px-48 py-5 rounded-3xl border-solid border-2 hover:text-white">START</a>
       </div>
     </div>
   </main>
+  <style>
+    .main-btn {
+      max-width: 28rem;
+      background-color: #5099F8;
+      border-color: #5099F8;
+      border-radius: 24px;
+    }
+    .main-btn:hover {
+      background-color: #3E3E70;
+      border-color: #3E3E70;
+    }
+  </style>
 </body>
 </html>

@@ -6,6 +6,9 @@
   background-color: red;
   color: white;
 }
+.grid {
+  display: grid;
+}
 #submit:disabled {
   background-color: rgb(156 163 175);
   cursor: not-allowed;
@@ -15,4 +18,23 @@
 #submit:disabled:hover {
   background-color: rgb(156 163 175);
   color: #fff;
+}
+.scrollbar::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: #fff;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #D1D1D1;
+  border-radius: 100vh;
+  border: 3px solid #fff;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #D1D1D1;
 }

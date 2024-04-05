@@ -14,53 +14,45 @@
 <body>
   <header class="flex justify-center">
     <div class="container bg-white flex justify-between py-3 items-center align-middle mx-4 max-w-screen-xl">
-      <a href="start.html" class="flex justify-center items-center">
-        <img src="../img/logo.png" alt="Logo" class="pr-4 w-20">
-      </a>
-      <a href="textbooks.html"
-        class="transition duration-700 border-solid border-2 border-[#E9EEFF] hover:text-white hover:bg-[#3E3E70] hover:border-[#3E3E70] text-[#3E3E70] rounded-lg p-4 w-96"
-        style="width: 24rem;">
-        <h2 class="text-2xl font-medium pb-2">Textbooks</h2>
-        <p class="text-sm font-normal">Click here to view Textbook Resources</p>
+      <div class="w-64 mr-4">
+        <a href="start.html" class="flex justify-center items-center">
+          <div class="pb-2">
+            <img src="../img/start-logo.png" alt="AKF">
+          </div>
+        </a>
+        <a href="creditpage.html"
+          class="flex justify-center font-medium transition duration-700 border-solid border-2 border-[#E9EEFF] hover:text-white hover:bg-[#3E3E70] hover:border-[#3E3E70] text-[#3E3E70] rounded-lg py-2 w-64">
+          About Programme
+        </a>
+      </div>
+
+      <a href="lessonplan.html"
+        class="transition duration-700 border-solid border-2 border-[#E9EEFF] hover:text-white hover:bg-[#3E3E70] hover:border-[#3E3E70] text-[#3E3E70] rounded-lg p-4 mx-2"
+        >
+        <h2 class="text-base font-medium pb-2">Lesson Plan Walkthroughs</h2>
+        <p class="text-xs font-normal">Click here to view Lesson Plan Walkthroughs</p>
       </a>
       <a href="teachingpractices.html"
-        class="transition duration-700 border-solid border-2 border-[#E9EEFF] hover:text-white hover:bg-[#3E3E70] hover:border-[#3E3E70] text-[#3E3E70] rounded-lg p-4 w-96"
-        style="width: 24rem;">
-        <h2 class="text-2xl font-medium pb-2">Teaching Practices</h2>
-        <p class="text-sm font-normal">Click here to view Teaching Practices Resources</p>
+        class="transition duration-700 border-solid border-2 border-[#E9EEFF] hover:text-white hover:bg-[#3E3E70] hover:border-[#3E3E70] text-[#3E3E70] rounded-lg p-4 w-64 mx-2"
+        >
+        <h2 class="text-base font-medium pb-2">Teaching Practices</h2>
+        <p class="text-xs font-normal">Click here to view Teaching Practices Resources</p>
       </a>
       <a href="coregrammar.html"
-        class="transition duration-700 border-solid border-2 border-[#E9EEFF] hover:text-white hover:bg-[#3E3E70] hover:border-[#3E3E70] text-[#3E3E70] rounded-lg p-4 w-96"
-        style="width: 24rem;">
-        <h2 class="text-2xl font-medium pb-2">Core Grammar</h2>
-        <p class="text-sm font-normal">Click here to view Core Grammar Resources</p>
+        class="transition duration-700 border-solid border-2 border-[#E9EEFF] hover:text-white hover:bg-[#3E3E70] hover:border-[#3E3E70] text-[#3E3E70] rounded-lg p-4 w-64 mx-2"
+        >
+        <h2 class="text-base font-medium pb-2">Core Grammar</h2>
+        <p class="text-xs font-normal">Click here to view Core Grammar Resources</p>
       </a>
-      <!-- <div>
-        <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown"
-          class="text-[#333] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
-          type="button">English<svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-            fill="none" viewBox="0 0 10 6">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="m1 1 4 4 4-4" />
-          </svg>
-        </button>
-        <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
-          <ul class="py-2 text-sm text-gray-700" aria-labelledby="dropdownDefaultButton">
-            <li class="hover:bg-indigo-900 hover:text-white">
-              <a href="#" class="block px-4 py-2">English</a>
-            </li>
-            <li class="hover:bg-indigo-900 hover:text-white">
-              <a href="#" class="block px-4 py-2">Тоҷикӣ</a>
-            </li>
-            <li class="hover:bg-indigo-900 hover:text-white">
-              <a href="#" class="block px-4 py-2">Русский</a>
-            </li>
-          </ul>
-        </div>
-      </div> -->
+      <a href="../src/javascript_tutorial.pdf" download
+        class="transition duration-700 border-solid border-2 border-[#E9EEFF] hover:text-white hover:bg-[#3E3E70] hover:border-[#3E3E70] text-[#3E3E70] rounded-lg p-4 w-64 mx-2"
+        >
+        <h2 class="text-base font-medium pb-2">Download</h2>
+        <p class="text-xs font-normal">Click here to download Textbooks and Teachers’ Books’</p>
+      </a>
     </div>
   </header>
-  <main class="bg-[#F6F8FF] py-10" style="min-height: calc(100vh - 176px);">
+  <main class="bg-[#F6F8FF] py-10 flex items-center justify-center" style="min-height: calc(100vh - 176px);">
     <div class="flex justify-center">
       <video controls poster="../img/video-img.jpg" class="max-w-screen-xl cursor-pointer rounded-lg">
         <source src="../videos/lists-with-commas.mp4" type="video/mp4" />
@@ -68,11 +60,9 @@
     </div>
   </main>
   <footer>
-    <div class="flex justify-center py-4">
-      <p class="text-[#7191BD]">© 2024 All rights reserved <a href="creditpage.html"
-          class="underline hover:no-underline text-[#457CC9] px-4">About Programme</a></p>
+    <div class="flex justify-center py-4 border-t-[#F6F8FF]">
+      <p class="text-[#7191BD]">© 2024 All rights reserved</p>
     </div>
   </footer>
 </body>
-
 </html>
